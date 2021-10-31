@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "concurrentboth": "concurrently \"npm run start\" \" cd server && npm run index \""
+    "concurrentboth": "concurrently \"npm run start\" \" cd.. && npm run index \""
   },
   "eslintConfig": {
     "extends": [
